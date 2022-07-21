@@ -4,7 +4,10 @@
     "module": "commonjs",
     "outDir": "./dist",
     "rootDir": "./",
-    "baseUrl": "./",
+    "baseUrl": "./src",
+    "paths": {
+      "@users": ["./core/users"]
+    },
     "esModuleInterop": true
   }
 }
